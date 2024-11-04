@@ -1,8 +1,3 @@
-''' 
-    Bazen web sitelerinde kullanıcıya sunulan seçenekler çok fazla olunca yazılımcılar dinamik dropdown, 
-    diğer adıyla suggestive search, kullanırlar. Bunlar HTML ile select tag kullanılmadığı için Select class kullanarak otomasyon yapamayız.
-'''
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By

@@ -11,14 +11,6 @@ driver.maximize_window()
 
 driver.get("https://tomspizzeria.b4a.app/")
 
-''' 1. is_selected() şayet web element seçili ise True , aksi halde değilse False verecektir. 
-    2. is_displayed() şayet web element sayfada kullanıcıya görünür durumda ise True, aksi halde False verecektir. 
-    3. is_enabled() ise web element kullanıcının etkileşimine açıksa True, aksi halde False verecektir.   '''
-
-''' 1. options: Dropdown içindeki seçenekleri bize web element listesi olarak verir
-    2. first_selected_option: Dropdownda o anda seçili olan seçeceği verir
-    3. select_by_visible_text: Kullanıcıya görünen metin ile istediğimiz seçeceği seçmemize yarar
-    4. select_by_index: İstediğimiz seçeneğin indeksini (0'dan başlayan indeks) kullanarak istediğimiz sıradaki seçeceği seçmemize yarar.  '''
 
 name=driver.find_element(By.ID,"musteri-adi").send_keys("Buse Yılmaz")
 

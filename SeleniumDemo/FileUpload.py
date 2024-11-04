@@ -1,15 +1,3 @@
-''' Testlerini otomasyon yaptığınız yazılım veya otomasyon yapıp vakit kazanmak istediğiniz bir rutin iş dosya yükleme içeriyorsa 
-    python ve selenium ile bunu başarmak oldukça kolay. 
-
-    Selenium ve python ile işletim sisteminin açtığı dosya bulma penceresini bypass ederek yükleyeceğimiz dosyanın 
-    mutlak yerini (absolute path) send_keys fonksiyonu ile gönderebiliriz.
-
-    Burada dikkat edilmesi gereken nokta, send_keys fonksiyonunu kullanacağımız web elementi doğru tespit etmek. 
-    Etkileşime geçeceğimiz web element input olmalı ve type attribute değeri file olmalı ki bu web elementin dosya yükleme elementi olduğundan emin olalım. 
-
-    NOT: File upload işlemleri vakit alacağı için 'yükle' benzeri butonlara tıkladıktan sonra explicit wait koymayı  unutmayın.
-'''
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By

@@ -1,8 +1,3 @@
-''' 
-    Testini yaptığınız web yazılımında bazen fare ile bir nesneyi sayfada bir yerden başka bir yere sürükleyip bırakmak gerekebilir. 
-    Nispeten zor görünen bu eylemi Selenium'un bize sunduğu ActionChains class ı ile otomasyon yapabiliriz. 
-'''
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By

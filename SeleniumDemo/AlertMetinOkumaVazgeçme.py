@@ -1,10 +1,3 @@
-'''  Uyarıda vazgeç, iptal gibi 'Hayır' anlamına gelecek butona tıklamak için ise:
-    alert.dismiss() fonksiyonunu kullanabiliriz. 
-
-    Uyarılar kullanıcıdan bir tercih yapmasını isterken, sunulan tercihi de alert içinde kullanıcıya metin olarak sunarlar. Bu metni okumak için:
-    alert.text yazarak alert ile bize sunulan metni string olarak kaydedebiliriz. 
-'''
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By

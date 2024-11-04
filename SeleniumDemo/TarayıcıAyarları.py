@@ -1,9 +1,3 @@
-''' 
-    Yazılım testlerimizi manuel olarak yaparken tarayıda bazı adımları, test senaryomuzun parçası olmamasına rağmen manuel olarak yapabiliriz.
-    Örneğin, dosya kaydederken konum seçme, şifreyi kaydedeyim mi uyarısını kapatma veya sayfayı tablet boyutlarına getirme gibi. 
-    Testimizi otomatik hale getirirken de bunları yapabiliriz.
-'''
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options

@@ -1,19 +1,3 @@
-''' WebDriver nesnemiz (driver adını verdiğimiz değişken) ile driver.switch_to.window(hint) yazarak yeni bir sekme veya pencere açabiliriz. 
-    Burada hint bir string değeri. Şayet parantez içine "tab" yazarsak yeni bir sekme,  "window" yazarsak yeni bir pencere açılacaktır.
-'''
-''' Gündelik hayatımızda internette gezinirken çoğumuz aynı anda bir chrome veya firefox penceresinde birden fazla sekme ile çalışırız. 
-    Aynı anda bir çoğumuzda yarım düzine sekme açıktır. 
-    Bizler sekme başlığına bakarak istediğimiz sekmeye geçiyoruz çünkü bir sekmede iken diğer sekmelerde bir işlem yapamayız. 
-    Peki bunu selenium ve python kullanarak nasıl yapacağız?
-
-    WebDriver nesnemiz açtığı her bir sekme/pencere için harf ve rakamlardan oluşan rastgele bir window_handle (o sekmeye özgü bir tür kullanıcı adı)  oluşturacaktır. 
-    Bu window_handle değerlerini kullanarak istediğimiz sekmeye geçiş yapabiliriz. 
-    WebDriver (driver adını verdiğimiz değişken) ile driver.current_window_handle bize şuan driver nesnemizin aktif olduğu sekmenin window_handle ını verecektir. 
-    Öte yandan driver.window_handles ise driver nesnemizin kontrol edebileceği tüm sekmelerin window_handle larını verecektir. 
-
-    Bu window_handle değerlerini kullanarak driver.switch_to.window(parametre) yazarak ve parametre yerine string olarak girdiğimiz window_handle sekmesine geçiş yapabiliriz.
-'''
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import time
